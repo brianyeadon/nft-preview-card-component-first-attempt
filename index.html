@@ -22,58 +22,56 @@
     <title>Frontend Mentor | NFT preview card component</title>
   </head>
   <body>
-    <main>
-      <div class="container">
-        <a
-          href="#"
-          class="image-overlay"
-          aria-label="interactive overlay for Equilibrium image"
-        >
-          <img
-            src="./images/image-equilibrium.jpg"
-            alt=""
-            class="card-header-image"
-          />
-        </a>
+    <main class="container">
+      <a
+        href="#"
+        class="image-overlay"
+        aria-label="interactive overlay for Equilibrium image"
+      >
+        <img
+          src="./images/image-equilibrium.jpg"
+          alt=""
+          class="card-header-image"
+        />
+      </a>
 
-        <div class="card-body">
-          <h1 class="card-body-title">Equilibrium #3429</h1>
-          <p class="card-body-main-text">
-            Our Equilibrium collection promotes balance and calm.
-          </p>
+      <div class="card-body">
+        <h1 class="card-body-title">Equilibrium #3429</h1>
+        <p class="card-body-main-text">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
 
-          <div class="columns space-between">
-            <div class="columns align-center">
-              <img
-                src="./images/icon-ethereum.svg"
-                alt="etherium icon"
-                class="image-ethereum"
-              />
-              <p class="card-body-eth">0.041 ETH</p>
-            </div>
-            <div class="columns align-center">
-              <img
-                src="./images/icon-clock.svg"
-                alt="clock icon"
-                class="image-clock"
-              />
-              <p class="card-body-days">3 days left</p>
-            </div>
+        <div class="flex space-between">
+          <div class="flex align-center">
+            <img
+              src="./images/icon-ethereum.svg"
+              alt="etherium icon"
+              class="image-ethereum"
+            />
+            <p class="card-body-eth">0.041 ETH</p>
+          </div>
+          <div class="flex align-center">
+            <img
+              src="./images/icon-clock.svg"
+              alt="clock icon"
+              class="image-clock"
+            />
+            <p class="card-body-days">3 days left</p>
           </div>
         </div>
+      </div>
 
-        <hr class="card-body-hr" />
-        <div class="columns align-center">
-          <img
-            src="./images/image-avatar.png"
-            alt="profile avatar"
-            class="image-avatar"
-          />
-          <p class="card-body-creation">
-            Creation of
-            <span class="accent-text">Jules Wyvern</span>
-          </p>
-        </div>
+      <div class="card-body-line"></div>
+      <div class="flex align-center">
+        <img
+          src="./images/image-avatar.png"
+          alt="profile avatar"
+          class="image-avatar"
+        />
+        <p class="card-body-creation">
+          Creation of
+          <span class="card-body-creation-name">Jules Wyvern</span>
+        </p>
       </div>
     </main>
 
